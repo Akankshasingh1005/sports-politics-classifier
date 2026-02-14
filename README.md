@@ -13,7 +13,8 @@ The goal is to compare different feature extraction techniques and machine learn
 
 ## Dataset
 
-The BBC News dataset from Kaggle was used.
+BBC News Dataset  
+Available at: https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category  
 
 Only two categories were selected:
 - sport
@@ -62,9 +63,10 @@ Results and confusion matrix are saved in the `results` folder:
 
 Install dependencies:
 
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 Run the program:
 
-```python src/main.py
+
+```python src/main.py ```

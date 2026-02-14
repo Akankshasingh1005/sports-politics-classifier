@@ -1,0 +1,11 @@
+Feature Type                   Model                Accuracy   Precision  Recall     F1        
+----------------------------------------------------------------------------------------------------
+Bag of Words                   Naive Bayes          0.9946     0.9882     1.0        0.9941    
+Bag of Words                   Logistic Regression  0.9892     1.0        0.9762     0.988     
+Bag of Words                   Linear SVM           0.9839     0.988      0.9762     0.982     
+TF-IDF                         Naive Bayes          1.0        1.0        1.0        1.0       
+TF-IDF                         Logistic Regression  0.9946     1.0        0.9881     0.994     
+TF-IDF                         Linear SVM           1.0        1.0        1.0        1.0       
+TF-IDF (Unigram + Bigram)      Naive Bayes          1.0        1.0        1.0        1.0       
+TF-IDF (Unigram + Bigram)      Logistic Regression  0.9946     1.0        0.9881     0.994     
+TF-IDF (Unigram + Bigram)      Linear SVM           1.0        1.0        1.0        1.0       
